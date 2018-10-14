@@ -1,5 +1,7 @@
 # Mealy_moore
-Autores: Jennifer de Castro e Larissa Motta
+Autores: <br>
+Jennifer de Castro: jenny_cg23@hotmail.com<br>
+Larissa Motta: larissasantosdamotta@gmail.com <br>
 <br>
 <br>
 Tutorial
