@@ -11,4 +11,5 @@ O programa foi desenvolvido em python. A explicação do código foi feita em co
 
 python3 main.py  mealy-to-moore1.txt  maquinaSaida.txt
 
+![](https://github.com/jennicg/Mealy_moore/blob/master/LFAEXEMPLO.png)
 
