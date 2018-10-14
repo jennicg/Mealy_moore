@@ -1,5 +1,7 @@
 # Mealy_moore
-
+Autores: Jennifer de Castro e Larissa Motta
+<br>
+<br>
 Tutorial
 
 O programa foi desenvolvido em python. A explicação do código foi feita em comentários no próprio programa. 
