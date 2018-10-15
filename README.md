@@ -1,10 +1,22 @@
-# Mealy_moore
-Autores: <br>
+# Autômatos Finitos com Saída - Maquina de Mealy e de Moore
+IFES- Campus Serra - BSI
+#### 1.Autores: <br>
 Jennifer de Castro: jenny_cg23@hotmail.com<br>
 Larissa Motta: larissasantosdamotta@gmail.com <br>
 <br>
 <br>
-<b>TUTORIAL </b>
+<br>
+#### 2.Descrição Breve da Estrutura do Código
+
+<br>
+<br>
+
+Na conversão de maquina de moore para mealy percorre-se as transições, onde são feitas algumas validações para verificar se a entrada passada como parametro atende aos requisitos e tambem a reconfiguração das transições e a adição dos out-fn.
+
+A conversão de mealy para moore, comparado a conversão citada anteriormente, é bem mais complexa. É criado um dicionario com os estados, depois disso é percorrido as transições onde é feita algumas validacoes e  é adicionado ao dicionario suas saidas.
+Ao percorrer esse dicionario obtem-se novos estados, caso necessário. Para obter as novas transições é necessário passar novamente pelas transições da mealy. Por fim verifica-se os estados finais.
+
+#### 3.Tutorial</b>
 <br>
 <br>
 
@@ -16,12 +28,3 @@ O programa foi desenvolvido em python. A explicação do código foi feita em co
 ![](https://github.com/jennicg/Mealy_moore/blob/master/LFAEXEMPLO.png)
 
 <br>
-<br>
-<b> DESCRIÇÃO BREVE DA ESTRUTURA DO CÓDIGO</b>
-<br>
-<br>
-
-Na conversão de maquina de moore para mealy percorre-se as transições, onde são feitas algumas validações para verificar se a entrada passada como parametro atende aos requisitos e tambem a reconfiguração das transições e a adição dos out-fn.
-
-A conversão de mealy para moore, comparado a conversão citada anteriormente, é bem mais complexa. É criado um dicionario com os estados, depois disso é percorrido as transições onde é feita algumas validacoes e  é adicionado ao dicionario suas saidas.
-Ao percorrer esse dicionario obtem-se novos estados, caso necessário. Para obter as novas transições é necessário passar novamente pelas transições da mealy. Por fim verifica-se os estados finais.
